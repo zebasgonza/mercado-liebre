@@ -30,5 +30,5 @@ app.get("/login",function (req, res) {
 });
 
 app.listen (PORT, () => {
-    console.log('servidor en el puerto '+PORT);
+    console.log('servidor en el puerto'+PORT);
 });
